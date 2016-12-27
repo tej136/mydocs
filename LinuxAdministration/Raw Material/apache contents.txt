@@ -1,0 +1,105 @@
+Class Overview
+
+This Apache Web Server training class is for Web Server administrators who need to be able to install, configure and run Apache httpd Web Server.
+Class Goals
+
+    Learn to install and configure Apache's httpd server.
+    Learn the details of the httpd.conf configuration file.
+    Learn to use .htaccess files.
+    Learn about virtual hosts.
+    Learn about MIME and file types.
+    Learn URL mapping.
+    Learn about directory indexing.
+    Learn about performance tuning.
+    Learn about handlers, filters, and server-side includes.
+    Learn about managing scripts, security and Apache modules.
+
+Class Outline
+
+    Introduction to Apache
+        Apache HTTP Server is an open-source project managed by the Apache Software Foundation (ASF)
+        The ASF supports many "projects", including:
+            HTTP Web server (Apache)
+            Jakarta
+            Perl, PHP, XML, TCL, Ant, Logging
+            and many others...
+        Downloading Apache
+        Download the Apache Binary for Windows
+        Make sure Port 80 is available
+        Run the Install Program
+        Change the install folder to be c:\Apache
+        Click "Install" to complete the installation
+        Test the Installation
+    Starting and Stopping Apache
+        Start/Stop the Server on Windows
+        The Apache Monitor
+        Install Apache as a Service
+        The apachectl Script
+    The Apache Configuration Files
+        The contents of the /conf directory
+        The httpd.conf file
+        Directives
+        Sections
+        The Include Directive
+        The Options Directive
+        The Installed Directories
+    The .htaccess File
+        Overview of .htacces files
+        Configuring .htaccess
+        The AllowOverride directive
+        Setting directory authentication
+        Allowing CGI scripts
+        Performance Issues
+    Virtual Hosts
+        Overview of Virtual Hosting
+        IP-Based Virtual Hosts
+        Name-based Virtual Hosts
+        Port-based Virtual Hosts
+        Bulk Virtual Hosting
+    MIME and File Types
+        Overview of MIME Types
+        Configuring MIME Types
+        Encoding Files
+        Character Sets
+        Languages
+    URL Mapping
+        Configuring Aliases
+        Configuring Redirects
+        The DocumentRoot Directive
+        Error Documents
+    Directory Indexing
+        The DirectoryIndex Directive
+        Fancy Indexing
+        Headers and Footers
+        Ignoring Files
+        Searching and Sorting
+    Performance Tuning
+        The ApacheBench Utility Program
+        Tweaking the Apache Configuration
+    Handlers and Filters
+        Overview of Handlers
+        The <Location> Section
+        Configuring Handlers
+        The server-status Handler
+        Overview of Filters
+        Configuring Filters
+    SSI
+        Overview of SSI
+        Configuring SSI
+        Using SSI Directives
+    Managing Scripts
+        Overview of scripting options
+        The mod_perl Module
+        Configuring mod_perl
+        Installing PHP on Windows
+        Configuring PHP
+    Security
+        Common Security Issues with Apache
+        Dynamic Content Issues
+        Authentication
+        Authorization
+        Access Control
+        Unix File Permissions
+    Modules
+        Overview of Apache Modules
+        Installing Modules

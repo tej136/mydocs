@@ -1,0 +1,26 @@
+  917  grep -E "ro+t" passwd
+  918  egrep  "ro+t" passwd
+  919  egrep  "ro*t" passwd
+  920  egrep  "roo*t" passwd
+  921  egrep  "roo+t" passwd
+  922  egrep  "rooo+t" passwd
+  923  egrep  "rooo*t" passwd
+  924  egrep  "rooo+t" passwd
+  925  egrep  "ro{2}t" passwd
+  926  egrep  "ro{3}t" passwd
+  927  egrep  "ro{2,3}t" passwd
+  928  vi passwd
+  929  vim passwd
+  930  pwd
+  931  useradd -s /bin/root user55
+  932  cp /etc/passwd .
+  933  vim passwd
+  934  grep root passwd
+  935  egrep "root$" passwd
+  936  egrep "^root" passwd
+  937  egrep "root" passwd
+  938  egrep "/<root" passwd
+  939  egrep "\<root" passwd
+  940  egrep "use" passwd
+  941  egrep "\<use" passwd
+  942  egrep "use\>" passwd

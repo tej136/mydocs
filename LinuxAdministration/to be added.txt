@@ -1,0 +1,5 @@
+special permissions
+
+Job scheduling
+
+sudo
